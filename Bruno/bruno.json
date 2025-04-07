@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "fcw-auth",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

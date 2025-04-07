@@ -1,0 +1,17 @@
+meta {
+  name: Update
+  type: http
+  seq: 6
+}
+
+put {
+  url: {{url}}/users/49dd70af-2794-4411-96f7-222c84b29daa/status
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "Status": "DONE"
+  }
+}

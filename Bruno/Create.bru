@@ -1,0 +1,20 @@
+meta {
+  name: Create
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{url}}/users
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Wesley",
+    "email": "wesley@email.com",
+    "password": "123",
+    "role": "ADMIN"
+  }
+}
